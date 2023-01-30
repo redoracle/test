@@ -6,7 +6,7 @@ trap 'killall -s SIGTERM cardano-node' SIGINT SIGTERM
 
 head -n 8 ~/.scripts/banner.txt
 
-. ~/.bashrc > /dev/null 2>&1
+. ~/.bashrc 
 
 echo "NETWORK: $NETWORK $POOL_NAME $TOPOLOGY";
 
